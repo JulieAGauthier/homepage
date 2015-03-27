@@ -1,0 +1,14 @@
+<div id="blog">
+  <h1>My Blog</h1>
+  <div id="blogText">
+    <% @posts.each do |post| %>
+      <h4><%= post.title %></h4>
+      <p><%= post.created_at.strftime("%d %B %Y") %></p>
+      <p><%= post.content %></p>
+      <%= social_share_button_tag(post.title, :popup => "true", :image => "https://scontent-lga.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/603836_10153100099227370_4671995068560967804_n.jpg?oh=78f0c958347e8c2380ba3f5955de5f09&oe=55726CAC", via: "JulieAGauthier") %>
+    <% end %>
+    <%= will_paginate @posts %>
+  </div>
+
+<br>
+</div>

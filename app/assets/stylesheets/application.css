@@ -1,0 +1,157 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require social-share-button
+ */
+#header{
+	width: auto;
+	display: inline-block;
+}
+a{
+	text-decoration:none;
+	color: #FFF;
+}
+h1, h3, h2{
+	font-family: 'Lobster', cursive;
+}
+h1{
+	font-size: 45px;
+}
+p, a{
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+a:hover{
+	text-decoration:none;
+	color: #FFF;
+}
+#header img{
+	width: 100%;
+	height: auto;
+}
+#headshot{
+	display: inline-block;
+	width: 10%;
+	height: auto;
+	padding-left: 5%;
+}
+#headshot img{
+	width: 170%;
+	height: auto;
+}
+#bio{
+	padding: 20px;
+	width: 60%;
+	display: inline-block;
+	float: right;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#biotext{
+	background-color: #ffd800;
+	padding: 20px;
+	color: #FFF;
+}
+#sm{
+	text-align: center;
+	padding-top: 6%;
+}
+#sm ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#sm ul li { 
+	display: inline; 
+}
+#sm img{
+	padding-top: 10px;
+	width:7%;
+	height:auto;
+}
+#press{
+	display: inline-block;
+	width: 15%;
+	height: auto;
+	margin-left: 3%;
+	margin-top: 10px;
+	float: left;
+	background-color: #fa053f;
+	color: white;
+	padding: 10px;
+}
+#press a{
+	color: #fdbdcc;
+}
+#Codapillar{
+	width: 75%;
+	height: auto;
+	display: inline-block;
+	float: right;
+	margin-right: 2%;
+	padding-left: 3%;
+	padding-top: 0px;
+}
+#Codapillar a{
+	color: #c3f6a4;
+}
+#Codapillar img{
+	width: 30%;
+	height: auto;
+	display: inline-block;
+}
+#Codapillar p{
+	padding: 20px;
+	padding-bottom: 10px;
+	width: 57%;
+	display: inline-block;
+	background-color: #62a43b;
+	color: #FFF;
+}
+#portfolio{
+	display: inline-block;
+	width: 15%;
+	height: auto;
+	margin-left: 3%;
+	margin-top: 20px;
+	float: left;
+	background-color: #ff7400;
+	color: white;
+	padding: 10px;
+}
+#portfolio a{
+	color: #ffb97e;
+}
+#blog{
+	display: block;
+	padding-top: 1%;
+	margin-left: 25%;
+	background-color: #00d2ff;
+	width: 62%;
+	padding-left: 3%;
+	padding-right: 3%;
+	color: white;
+}
+#blogText{
+	background-color: #bcf1fd;
+	padding: 3%;
+	color: #016c83;
+}
+h4{
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	font-size: 25px;
+}
+.clear {
+	clear:both;
+}
+

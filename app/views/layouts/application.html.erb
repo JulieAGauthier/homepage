@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homepage</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="keywords" content="Web developer, developer, tech, programming, computer science, manager, Julie Gauthier, seidenberg creative labs, web design, websites, web design" />
+  <link rel="stylesheet" type="text/css" href="mystyle.css"> 
+  <link rel="icon" type="image/gif" href="favicon.gif">
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42887429-1', 'juliegoat.com');
+  ga('send', 'pageview');
+
+  </script>
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
+  <title>Julie Gauthier</title>
+  </head>
+<body>
+  <div id="header">
+    <%= image_tag("Header.png") %>
+</div>
+<div id="headshot">
+    <%= image_tag("headshot.png") %>
+</div>
+<div id="bio">
+  <div id="biotext">
+  <p>I've spent the last four years as a computer science student and web developer in New York City, learning to build things. These things include websites, data visualizations, mobile apps, friendships, vegan lasagnas, and a reputation. I ask "Why not?" as often as possible, and make sure to follow it up with as many "Why?"s as Google will allow me. My dream is to travel around the world, coding and teaching others about technology. I love hackathons, Ruby on Rails, running long distances, and having chats over coffee. This year, I'm working on conquering things that I'm afraid I will fail at. If you've got something that will challenge me, bring it on!</p>
+</div>
+<div id="sm">
+  <ul>
+    <li><a href="https://www.facebook.com/Creatvetrnsltion"><%= image_tag("facebook.jpg") %></a></li>
+    <li><a href="https://twitter.com/JulieAGauthier"><%= image_tag("twitter.jpg") %></a></li>
+    <li><a href="http://www.linkedin.com/pub/julie-gauthier/59/182/183/"><%= image_tag("linkedin.jpg") %></a></li>
+    <li><a href="https://github.com/JulieAGauthier"><%= image_tag("github.jpg") %></a></li>
+    <li><a href="mailto:juliegauthiernyc@gmail.com"><%= image_tag("email.jpg") %></a></li>
+    <li><a href="https://www.youtube.com/channel/UCQBnoiNzZAuZVjJtiDWfbGQ"><%= image_tag("youtube.jpg") %></a></li>
+    <li><a href="http://instagram.com/julieagauthier/"><%= image_tag("instagram.jpg") %></a></li>
+  </ul>
+</div>
+</div>
+<div id="press">
+  <h2>Press</h2>
+  <ul>
+    <li><a href="http://www.theallianceinstitute.org/home/2014/6/3/angelhack-matches-tech-with-alliance-institutes-work.html">AngelHack project in collaboration with RFK Young Leaders for the Alliance Institute</a></li>
+    <li><a href="http://launchlm.com/spotlight">LaunchLM Spotlight</a></li>
+    <li><a href="http://www.nydailynews.com/life-style/big-town/lab-byte-stuff-article-1.1800389#ixzz32S4aqgll">NY Daily News article on Seidenberg Creative Labs</a></li>
+    <li><a href="http://www.pace.edu/mypace/hit-tech?mpc=cs">Pace University Student Highlight</a></li>
+  </ul>
+  <h2>Publication</h2>
+  <ul>
+    <li><a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6891028&url=http%3A%2F%2Fieeexplore.ieee.org%2Fstamp%2Fstamp.jsp%3Ftp%3D%26arnumber%3D6891028">IEEE Integrated STEM Education Conference March 2014</a></li>
+  </ul>
+</div>
+<div id="Codapillar">
+  <a href="http://codapillar.com"><%= image_tag("codapillar.jpg") %></a>
+  <p>Codapillar is a project that I am working on with <a href="http://www.olgabogomolova.nyc">Olga Bogomolova</a> to create a platform and curriculums that help to break down the learning curve on coding. Olga and I have been teaching and coordinating web development workshops, camps, and classes for the last several years, and always run into the same three problems: Students feel like they need to learn it all, all at once, and get overwhelmed. While students run through tutorials online, they are copying and pasting code, and building things that have already been built, rather than engaging in the real action behind programming, problem solving. Once students begin to get comfortable with coding, they stop. There's no incentive for them to keep coding on a regular basis. Codapillar addresses those challenges with a specialized curriculum, focus on community, and a creative, social platform with a bunch of the students' friends. Check out what we're doing at <a href="http://www.codapillar.com">Codapillar.com</a> </p>
+</div>
+<div class="clear"></div>
+<div id="portfolio">
+  <h2>Portfolio</h2>
+  <ul>
+    <li><a href="http://bayou.drewcimino.com">AngelHack project for the Alliance Institute to track data pertaining to healthcare along the Gulf Coast</a></li>
+    <li><a href="http://www.juliegoat.com/OnMyEarth/">Space Apps Hackathon 2014 Hubble images vs. Google Maps</a></li>
+    <li><a href="http://www.renthackr.com">RentHackr, where I was a developer for 5 months</a></li>
+    <li><a href="https://radiant-bayou-3362.herokuapp.com/">A forum for the Pace Entrepreneurship Lab, soon to be launched</a></li>
+    <li><a href="http://ar.pacewebmedia.com/JG_Map_Mods_2/cycle2.html">A cycle of different maps from the augmented reality project with Professor Willima Pappenheimer</a></li>
+    <li><a href="http://www.scottsorchardandnursery.com/">My first freelance web design job - Scott's Orchard and Nursery</a></li>
+  </ul>
+</div>
+
+<%= yield %>
+
+</body>
+</html>
