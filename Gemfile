@@ -33,6 +33,8 @@ gem 'will_paginate', '~> 3.0.6'
 
 gem 'social-share-button'
 
+gem 'bootstrap-sass', '~> 3.3.5'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
